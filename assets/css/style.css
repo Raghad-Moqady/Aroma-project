@@ -1,0 +1,128 @@
+/*general*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+     width: 80%;
+    margin:auto;
+}
+.float-item{
+    float: left;
+}
+.clearfix{
+    clear:left;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/*Start navbar*/
+.navbar{
+    padding: 20px 0;
+}
+.logo{
+    width: 30%;
+}
+.list{
+    width: 45%;
+}
+
+.item{
+    display: inline-block;
+    padding-left: 20px;
+}
+.nav-link{
+    text-transform: capitalize;
+    color: #333;
+}
+.icons i{
+    color:#384aeb;
+    padding-right: 20px;
+ }
+ .botton{
+    color: #333;
+    border:1px solid #384aeb;
+    padding: 10px 20px;
+    border-radius:20px ;
+    text-transform: capitalize;
+ }
+ .list, .icons{
+    padding-top: 10px;
+ }
+/*End navbar*/
+/*start header */
+.image{
+    width: 40%;
+
+}
+.image img{
+    width: 100%;;
+}
+.content{
+    padding-top: 160px;
+    padding-left: 100px;
+    width: 55%;
+}
+h1{
+    text-transform: uppercase;
+    padding:18px 0;
+}
+.short-bio{
+    font-size: 25px;
+    color: #333;
+}
+.description{
+    color: #333;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+.content .botton{
+    background-color: #384aeb;
+    color: white;
+    border: none;
+}
+/*end header*/
+/*start main product*/
+.img1{
+    width: 30%;
+}
+.img2{
+    width: 30%;
+}
+.img3{
+    width: 30%;
+}
+.main-product{
+ margin-top: 40px;
+}
+.main-product .float-item img{
+    width: 100%;
+}
+.main-product .float-item {
+  padding-left: 15px;
+}
+/*endMainProduct*/
+
+/*start trend*/
+.trendingPro .float-item{
+width: 24%;
+padding-right: 15px;
+}
+.trendingPro .float-item img{
+    width:100%;
+}
+.trendingPro{
+    margin-top: 80px;
+}
+.border-bottom{
+    border-bottom:1px ;
+}
+.nn .float-item{
+    text-align: center;
+}
+/*end trend*/
